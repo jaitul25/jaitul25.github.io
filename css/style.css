@@ -96,10 +96,10 @@ ul.nav.navbar li a.w3ls-icon:hover {
 /*-- banner --*/  
 .video {
 	background:url(../images/cv.jpg)no-repeat;
-    background-position:0px 0px;
+    background-position:-15px -15px;
 	text-align: left;
 	min-height: 100%;
-	background-size:cover;
+	background-size:contain;
 }
 .banner-text {
     margin: 22em 0 10em;
@@ -121,7 +121,7 @@ ul.nav.navbar li a.w3ls-icon:hover {
     font-weight: 900;
 }
 .video iframe{
-width: 100%;
+width: 75%;
     min-height: 15em;
     border: 1px solid #b3b3b3;
 }
