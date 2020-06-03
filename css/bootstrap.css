@@ -5655,12 +5655,12 @@ a.list-group-item-danger.active:focus {
 .embed-responsive embed,
 .embed-responsive object,
 .embed-responsive video {
-  position: absolute;
+  position: relative;
   top: 0;
   bottom: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
+  width: Auto;
+  height: Auto;
   border: 0;
 }
 .embed-responsive-16by9 {
